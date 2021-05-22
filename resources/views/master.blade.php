@@ -47,6 +47,9 @@ img.slider-img{
 }
 .footerstyle{
     text-align: center;
+    margin-top: 25em;
+   
+    
 }
 </style>
 </html>

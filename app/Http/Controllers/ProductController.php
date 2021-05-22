@@ -41,8 +41,7 @@ class ProductController extends Controller
         else
         {
             return redirect('/login');
-        }
-        
+        }  
     }
 
     static function cartItem()
@@ -93,7 +92,7 @@ class ProductController extends Controller
             $order->save();
             Cart::where('user_id',$userId)->delete();
         }
-        return $req->input();
+       // return $req->input();
         return redirect('/');
         
     }
